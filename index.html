@@ -11,15 +11,30 @@
 </head>
 
 <body>
-    <article class="container">
+    <!-- nav -->
+    <nav class="navbar navbar-light navbar-expand-lg bg-light">
+        <a href="/" class="navbar-brand">Gift Box Direct</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+            <li class="active nav-item mr-2"><a class="nav-link" href="">About</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Monthly gift boxes delivered direct</i></p>
+            <a href="/login">Sign up / Sign in</a>
+        </div>
+
+    </nav>
+    <article class="container mt-5">
         <!-- callout and offer-->
         <div class="row">
             <div class="col-12">
-                <section class="callout">
+                <section class="callout jumbotron text-center">
                     <h1>Subscription boxes for a gift that keeps on giving</h1>
                     <p class="lead">GBD subscription boxes make for an ingenious gift, whether you’re shopping for
                         birthdays, anniversaries, other special occasions or just want to treat yourself.
-                        <s>€29.99</s>
+                        <s class="d-none d-sm-inline">€29.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
                         <strong>
                             <mark>First order is €9.99</mark>
                         </strong>
@@ -33,23 +48,33 @@
         <!--quotes-->
         <section class="quotes">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Quotes</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>Finally a gift box that i can use all products</p>
-                        <P>Johnny Boyata</P>
-                    </blockquote>
+                    <div class="media">
+                        <img src="images/guy-image.png" class="rounded-circle mr-3" height="100" width="100">
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>Finally a gift box that i can use all products</p>
+                                <P>Johnny Boyata</P>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <P>A fantastic selection of self care products that are everyday friendly</P>
-                        <P>Annebelle James</P>
-                    </blockquote>
+                    <div class="media"></div>
+                    <img src="images/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
+                    <div class="media-body">
+                        <blockquote class="blockquote">
+                            <P>A fantastic selection of self care products that are everyday friendly</P>
+                            <P>Annebelle James</P>
+                        </blockquote>
+                    </div>
                 </div>
+            </div>
             </div>
         </section>
         <!--/. quotes-->
@@ -57,7 +82,7 @@
         <!-- features-->
         <section class="features">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Features:</h2>
                 </div>
             </div>
