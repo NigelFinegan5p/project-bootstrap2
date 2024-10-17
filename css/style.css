@@ -41,3 +41,15 @@ body {
     margin-bottom: 25px;
 
 }
+/* block divider */
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #e9e10d;
+}
+
+.block-divider--orange {
+    background-color: #c6e613;
+}
+
