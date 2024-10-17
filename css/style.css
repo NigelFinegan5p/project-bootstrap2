@@ -2,4 +2,42 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.alert-container {}
 
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/cyber-monday-shopping-sales.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/* jumbotron */
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron .lead {
+    color: #ffffff;  
+    margin: 25px 0;
+}
+
+.jumbotron-header {
+    color: #ffc107;
+    font-weight: bolder;
+    margin-bottom: 25px;
+
+}
