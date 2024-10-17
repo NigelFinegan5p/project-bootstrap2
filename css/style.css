@@ -23,6 +23,15 @@ body {
 
 .quotes-container {}
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 .features-container {}
 
 /* jumbotron */
@@ -36,7 +45,7 @@ body {
 }
 
 .jumbotron-header {
-    color: #ffc107;
+    color: #ffffff;
     font-weight: bolder;
     margin-bottom: 25px;
 
@@ -46,10 +55,13 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #e9e10d;
+    background-color: #ffc107;
 }
 
-.block-divider--orange {
-    background-color: #c6e613;
+.block-divider--yellow {
+    background-color: #ffc107;
 }
+
+/* buttons */
+
 
