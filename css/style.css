@@ -90,7 +90,7 @@ body {
 }
 
 .jumbotron .lead {
-    color: #ffffff;  
+    color: #ffffff;
     margin: 25px 0;
 }
 
@@ -100,6 +100,7 @@ body {
     margin-bottom: 25px;
 
 }
+
 /* block divider */
 .block-divider {
     width: 315px;
@@ -126,6 +127,3 @@ body {
 .container-wrapper--gold .page-header {
     background-color: #c58a00;
 }
-
-
-
