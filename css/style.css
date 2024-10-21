@@ -94,14 +94,16 @@ body {
 }
 /* block divider */
 .block-divider {
-    width: 75px;
-    height: 75px;
+    width: 315px;
+    height: 5px;
     border: 0;
     background-color: #ffc107;
 }
 
 .block-divider--yellow {
     background-color: #ffffff;
+    width: 250px;
+    height: 5px;
 }
 
 
