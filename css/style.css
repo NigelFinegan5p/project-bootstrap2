@@ -4,6 +4,14 @@ body {
 
 .alert-container {}
 
+.container-wrapper {}
+
+.container-wrapper--gold {
+    background-color: #c58a00;
+    color: ;
+
+}
+
 .callout-container {
     height: 100vh;
 
@@ -106,6 +114,18 @@ body {
     height: 5px;
 }
 
+.block-divider--white {
+    background-color: ;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container-wrapper--gold .page-header {
+    background-color: #c58a00;
+}
 
 
 
