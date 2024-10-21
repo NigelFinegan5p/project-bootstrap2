@@ -41,7 +41,7 @@ body {
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
-    background-color: #ffc107;
+    background-color: #ffffff;
 }
 
 .page-header h2 {
@@ -95,13 +95,13 @@ body {
 /* block divider */
 .block-divider {
     width: 75px;
-    height: 5px;
+    height: 75px;
     border: 0;
     background-color: #ffc107;
 }
 
 .block-divider--yellow {
-    background-color: #ffc107;
+    background-color: #ffffff;
 }
 
 
