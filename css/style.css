@@ -36,6 +36,20 @@ body {
 
 /* navabar styling */
 
+/* page header */
+.page-header {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    background-color: #ffc107;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* page header END */
+
 .navalert-container {
     position: absolute;
     top: 0;
@@ -54,6 +68,12 @@ body {
 
 .navbar-brand {
     font-weight: bolder;
+}
+
+/* content container */
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* jumbotron */
