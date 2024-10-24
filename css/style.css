@@ -127,3 +127,10 @@ body {
 .container-wrapper--gold .page-header {
     background-color: #c58a00;
 }
+
+/* gift box images*/
+.card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    border: 10px, solid;
+}
