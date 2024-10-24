@@ -130,7 +130,5 @@ body {
 
 /* gift box images*/
 .card-img-top {
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
-    border: 10px, solid;
+    border: 15px solid;
 }
